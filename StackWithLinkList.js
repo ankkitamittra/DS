@@ -39,20 +39,4 @@ class Stack {
     this.length--;
     return this;
   }
-  //isEmpty
 }
-
-const myStack = new Stack();
-myStack.peek();
-myStack.push('google');
-myStack.push('udemy');
-myStack.push('discord');
-myStack.peek();
-myStack.pop();
-myStack.pop();
-myStack.pop();
-
-
-//Discord
-//Udemy
-//google
