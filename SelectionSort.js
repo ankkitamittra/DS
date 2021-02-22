@@ -7,7 +7,7 @@ function selectionSort(array) {
     let min = i;
     let temp = array[i];
     for(let j = i+1; j < length; j++){
-      if (array[j] < array[min]){
+      if (array[min] > array[j]){
         //update minimum if current is lower that what we had previously
         min = j;
       }
